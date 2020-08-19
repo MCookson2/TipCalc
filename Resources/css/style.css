@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    background-color: lightsalmon;
+}
+
+p {
+    font-weight: bold;
+}
+
+.header {
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    color: lightsalmon;
+    background-color: teal;
+}
+
+.container  {
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+    display: block;
+}
+
+select {
+    border: 2px solid black;
+    width: 200px;
+    height: 20px;
+}
+
+input {
+    border: 2px solid black;
+    width: 200px;
+    height: 20px;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: block;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    margin: 25px auto;
+}
+
+#totaltip {
+    background-color: white;
+    width: 20%;
+    border: 2px solid black;
+}
+
+*:focus {
+    outline: none;
+}
